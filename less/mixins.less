@@ -1,1 +1,49 @@
 // Mixins Here
+
+.nav-txt {
+    color: black;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.flex(@align: center; @justify: center;) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+  }
+
+
+
+.btn-info (@font; @bg;) {
+      color: @font;
+      background-color: @bg;
+      text-align: center;
+      padding: 5px;
+      font-size: 1.8rem;
+      font-weight: 600;
+
+  }
+
+.butn:hover {
+    color:blue;
+}
+  
+.radius {
+      border-radius: 5px;
+  }
+
+
+//Phone Mixins
+
+.space-images-phone {
+    .launch {
+        display: none;
+    }
+    .sky {
+        display: none;
+    }
+    .blast {
+        width:90%;
+    
+    }
+}
