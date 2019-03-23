@@ -193,7 +193,6 @@ p {
 }
 @media (max-width: 500px) {
   .nav-bar {
-    max-width: 500px;
     width: 100%;
   }
 }
@@ -208,7 +207,7 @@ p {
   .nav-link a {
     width: 100%;
     padding-right: 0;
-    margin: 15px;
+    margin: 10px;
   }
 }
 footer {
