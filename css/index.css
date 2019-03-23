@@ -9,6 +9,11 @@
 .radius {
   border-radius: 5px;
 }
+.img-hover:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
 .space-images-phone .launch {
   display: none;
 }
@@ -182,6 +187,13 @@ p {
 }
 .nav-bar {
   height: 100px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
   color: black;
   text-align: center;
   background-color: #f6f6f6;
