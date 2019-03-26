@@ -204,6 +204,11 @@ p {
   padding-bottom: 20px;
   width: 100%;
 }
+@media (max-width: 500px) {
+  .nav-bar h1 {
+    width: 100%;
+  }
+}
 .nav-bar .nav-link a {
   padding-top: 50px;
   text-decoration: none;
@@ -230,7 +235,8 @@ footer {
   align-items: center;
 }
 .container {
-  width: 800px;
+  max-width: 800px;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .container {
